@@ -22,3 +22,15 @@ function printData(userId: number, id: number, title: string, body: string) {
 }
 
 getUrl();
+
+let weather = {
+  max: 26,
+  min: 8,
+};
+
+function printWeather({ max, min }: { max: number; min: number }): void {
+  console.log(max);
+  console.log(min);
+}
+
+printWeather(weather);
