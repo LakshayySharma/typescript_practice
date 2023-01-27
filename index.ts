@@ -9,3 +9,8 @@ const grid: number[][] = [
 ];
 
 const mixed: (string | number)[] = [1, 2, "a"];
+
+// Tuple
+type Game = [string, number, boolean];
+let game1: Game = ["cod", 2, true];
+//Game - a tuple
