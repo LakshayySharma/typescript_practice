@@ -34,3 +34,6 @@ function printWeather({ max, min }: { max: number; min: number }): void {
 }
 
 printWeather(weather);
+
+//object annotation
+let { max, min }: { max: number; min: number } = weather;
